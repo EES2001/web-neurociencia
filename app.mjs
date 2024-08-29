@@ -7,7 +7,7 @@ new Vue({
   el: "#app",
   render: (h) => h(App),
   data: {
-    socket: io("https://web-neurociencias-8fl6mgojh-ees2001s-projects.ees.com"), // Cambia esto al dominio correcto
+    socket: io("web-neurociencia-hr6g.vercel.app"), // Cambia esto al dominio correcto
   },
   created() {
     this.socket.on("startCountdown", (number) => {
